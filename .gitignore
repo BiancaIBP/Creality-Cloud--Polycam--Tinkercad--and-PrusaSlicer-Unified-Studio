@@ -1,0 +1,18 @@
+# Next.js
+.next/
+node_modules/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+backend/__pycache__/
+backend/outputs/*
+!backend/outputs/.gitkeep
+
+# Environment & Verification
+.env*
+dev_server.log
+verification/
+tmp_setup/
